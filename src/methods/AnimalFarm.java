@@ -14,8 +14,9 @@ public class AnimalFarm {
 
 	AnimalFarm() {
 		/*
-		 * 1. Ask the user which animal they want, then play the sound of that animal.
+		 * 1. Ask the user which animal they want, then play the sound of that animal
 		 */
+		JOptionPane.showInputDialog("What animal do you want? dog , duck , cow , cat, or llama?");
 		
 		/* 2. Make it so that the user can keep entering new animals. */
 	}
@@ -55,3 +56,65 @@ public class AnimalFarm {
 	}
 
 }
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+keep going
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C; */
