@@ -1,4 +1,4 @@
-//    Copyright (c) The League of Amazing Programmers 2013-2017
+//    Copyright (c) The League of Amazing Programmers 2013-2018
 //    Level 0
 
 package random;
@@ -18,7 +18,7 @@ import javax.swing.JPanel;
 
 public class RockPaperScissors extends JPanel implements ActionListener{
   
-	private JFrame window = new JFrame("Rock Paper Scissors");
+	private JFrame window = new JFrame("Scissors Paper Rock");
 	private JButton rockButton = new JButton();
 	private JButton paperButton = new JButton();
 	private JButton scissorsButton = new JButton();
@@ -95,10 +95,10 @@ public class RockPaperScissors extends JPanel implements ActionListener{
         }
         
         JOptionPane.showMessageDialog(null, "You chose: " + convertSelection(selection) + ".\n"
-                    + "The computer chose: " + convertSelection(opponentSelection) + ".\n");
+                    + "The rock chose: " + convertSelection(opponentSelection) + ".\n");
         
         if(selection == opponentSelection){
-            JOptionPane.showMessageDialog(null, "No Winner.  Play again.");
+            JOptionPane.showMessageDialog(null, "Tie.  Play again.");
         }else if((selection == 0 && opponentSelection == 2) || 
                  (selection == 1 && opponentSelection == 0) ||
                  (selection == 2 && opponentSelection == 1)){
